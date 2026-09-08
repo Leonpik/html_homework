@@ -1,0 +1,63 @@
+.container{
+  width: 1000px;
+  min-height: 100vh;
+  background-color: rgba(128, 128, 128, 0.285);
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0 auto;
+}
+.container1{
+  width: 1000px;
+  min-height: 100vh;
+  background-image: url('./images/map2.jpg');
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.field1{
+  margin-bottom: 10px;
+  vertical-align: bottom;
+}
+.field1 textarea{
+  margin-left: 75px;
+  width: 200px;
+  vertical-align: bottom;
+}
+.field2{
+  vertical-align: bottom;
+}
+.field2 input{
+  margin-left: 23px;
+  width: 200px;
+}
+.field1 button{
+  background-color: transparent;
+}
+.field2 button{
+  background-color: transparent;
+}
+.field3{
+  vertical-align: bottom;
+}
+.field1{
+  margin-top: 40px;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.picture{
+    text-align: center;
+}
+.picture img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.link{
+  color:black;
+  text-decoration: none;
+}
