@@ -1,0 +1,39 @@
+p {
+    background-color: lightblue;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+#red {
+    background-color: red;
+}
+
+[style] {
+    background-color: lightyellow;
+}
+
+div p {
+    background-color: lightpink;
+}
+
+ul > li {
+    background-color: lightgray;
+}
+
+p.orange {
+    background-color: orange;
+}
+
+div.heavier p {
+    background-color: plum;
+}
+
+#section .purple {
+    background-color: violet;
+}
+
+p.brown[data-type] {
+    background-color: burlywood;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS селектори</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <p>Селектор за тегом p, вага 00001</p>
+
+    <p class="green">Селектор за класом green, вага 00010</p>
+
+    <p id="red">Селектор за id #red, вага 00100</p>
+
+    <p style="font-size:25px">Селектор за атрибутом [style], вага 00010</p>
+
+    <div>
+        <p>Вкладений селектор div p, вага 00002</p>
+    </div>
+
+    <ul>
+        <li>Дочірній селектор ul > li, вага 00002</li>
+    </ul>
+
+    <p class="orange">Послідовність  p і класу orange, вага 00011</p>
+
+    <div class="heavier">
+        <p>Комбінація div і классу div "heavier" p, вага 00012</p>
+    </div>
+
+    <section id="section">
+        <p class="purple">Комбінація section і классу р "purple", вага 00110</p>
+    </section>
+
+    <p class="brown" data-type="text">
+        Комбінація p, класу brown і [data-type], вага 00021
+    </p>
+
+</body>
+</html>
