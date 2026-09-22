@@ -1,39 +1,46 @@
-p {
-    background-color: lightblue;
+body { margin: 20px; }
+
+.mondrian {
+  display: grid;
+  grid-template-columns: 76px 90px 90px 176px 111px 112px 33px;
+  grid-template-rows: 77px 180px 178px 87px 80px 50px 28px;
+  gap: 10px;
+  padding: 10px;
+  background: #000;
+  width: max-content;
 }
 
-.green {
-    background-color: lightgreen;
-}
+.w  { background: #fff; }
+.r  { background: #f5150d; }
+.y  { background: #ffd91a; }
+.bl { background: #1010c0; }
+.b  { background: #000; }
+.d  { background: #1a1010; }
 
-#red {
-    background-color: red;
-}
 
-[style] {
-    background-color: lightyellow;
-}
+.a1  { grid-area: 1 / 1 / 2 / 3; }
+.a2  { grid-area: 1 / 3 / 2 / 5; }
+.a3  { grid-area: 1 / 5 / 2 / 7; }
+.a4  { grid-area: 1 / 7 / 5 / 8; }
 
-div p {
-    background-color: lightpink;
-}
+.a5  { grid-area: 2 / 1 / 3 / 2; }
+.a6  { grid-area: 2 / 2 / 4 / 5; }
+.a7  { grid-area: 2 / 5 / 3 / 7; }
 
-ul > li {
-    background-color: lightgray;
-}
+.a8  { grid-area: 3 / 1 / 5 / 2; }
+.a9  { grid-area: 3 / 5 / 4 / 6; }
+.a10 { grid-area: 3 / 6 / 4 / 7; }
 
-p.orange {
-    background-color: orange;
-}
+.a11 { grid-area: 4 / 2 / 6 / 4; }
+.a12 { grid-area: 4 / 4 / 5 / 5; }
+.a13 { grid-area: 4 / 5 / 5 / 7; }
 
-div.heavier p {
-    background-color: plum;
-}
+.a14 { grid-area: 5 / 1 / 8 / 2; }
+.a15 { grid-area: 5 / 4 / 6 / 5; }
+.a16 { grid-area: 5 / 5 / 7 / 7; }
+.a17 { grid-area: 5 / 7 / 8 / 8; }
 
-#section .purple {
-    background-color: violet;
-}
+.a18 { grid-area: 6 / 2 / 8 / 4; }
+.a19 { grid-area: 6 / 4 / 7 / 5; }
 
-p.brown[data-type] {
-    background-color: burlywood;
-}
+.a20 { grid-area: 7 / 4 / 8 / 7; }
