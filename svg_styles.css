@@ -1,17 +1,14 @@
 body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; line-height: 1.5; }
 h1 { font-size: 22px; }
-
 .shapes {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   align-items: center;
 }
-
 .animated-ellipse {
   animation: color-shift 3s infinite alternate;
 }
-
 @keyframes color-shift {
   0% {
     fill: #f28482;
